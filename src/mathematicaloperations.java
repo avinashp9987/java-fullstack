@@ -5,6 +5,7 @@ public class mathematicaloperations {
         int result;
 
         //Addition
+
         result = x+y;
         System.out.println("Addition is"+result);
 
@@ -22,5 +23,12 @@ public class mathematicaloperations {
         System.out.println("dividation is"+result);
 
 
+
+
+
     }
 }
+
+
+
+
