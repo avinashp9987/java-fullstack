@@ -29,11 +29,25 @@ public class VowelsEx {
         //Feb: February
 //        for(;;){
 //        System.out.println("infinite Loop");
-  //  }
-    // Enhanced for loop
-    int a[]= { 5,10,15,20,25};
-            for (int no:a){
-        System.out.println(no);
+        //  }
+        // Enhanced for loop
+//    int a[]= { 5,10,15,20,25};
+//            for (int no:a){
+//        System.out.println(no);
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter any month");
+        String month = sc.next();
+        switch (month) {
+            case "jan":
+                System.out.println("january");
+                break;
+            case "feb":
+                System.out.println("february");
+                break;
+            default:
+                System.out.println("");
+        }
     }
-}
 }
