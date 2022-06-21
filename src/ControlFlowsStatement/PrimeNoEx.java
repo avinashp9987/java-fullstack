@@ -17,6 +17,7 @@ public class PrimeNoEx {
 
         }
         if (flag) {
+
             System.out.println("Enter no" + n + "is  prime");
         } else {
             System.out.println("Enter no" + n + "is not prime");
