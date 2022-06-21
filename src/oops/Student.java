@@ -1,5 +1,6 @@
 package oops;
 
+import javax.swing.plaf.basic.BasicMenuItemUI;
 import java.util.Scanner;
 
 public class Student {
@@ -43,9 +44,14 @@ class StudentImpl {
         String addr = sc.next();
         System.out.println("Enter age");
         float a = sc.nextFloat();
+
         Student s2 = new Student();
         s2.insertData(rno, nm, addr, a);
         s2.display();
+
+        Student s3= new Student();
+        s3.insertData(1,"avinash","qwert",7.9f);
+        s3.display();
 
     }
 }
