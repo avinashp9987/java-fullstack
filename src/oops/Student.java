@@ -27,7 +27,7 @@ public class Student {
     }
 }
 
-class StudentImpl {
+class StudentImpl1 {
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.rno = 1;
@@ -44,6 +44,7 @@ class StudentImpl {
         String addr = sc.next();
         System.out.println("Enter age");
         float a = sc.nextFloat();
+
 
         Student s2 = new Student();
         s2.insertData(rno, nm, addr, a);
