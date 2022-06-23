@@ -1,5 +1,5 @@
 package Thiskeyword;
-
+//Used to invoke current class constructor
 public class Bike {
     int bikeNo;
     String bikeName;
