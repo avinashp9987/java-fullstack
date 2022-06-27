@@ -1,5 +1,7 @@
 package inheritance;
 
+// Herachiccal inheritance
+
 public class student {
     String name = "xyz";
     int rno = 1;
