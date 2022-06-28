@@ -18,7 +18,7 @@ public class Addition {
     }
 
     void add(int... no) {
-        System.out.println("calling");
+        System.out.println("calling var args");
     }
 }
 
