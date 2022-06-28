@@ -13,9 +13,8 @@ class  car extends vehicle{
     String varient;
     Engine engine;
     Mplayer mplayer;
-void display(){
-    System.out.println();
-}
+
+
 
 }
 class Engine{
