@@ -7,7 +7,10 @@ public class vehicle {
     public vehicle(int vehicleCode, String vehicleType) {
         this.vehicleCode = vehicleCode;
         this.vehicleType = vehicleType;
+
     }
+
+
 }
 
 class Bike extends vehicle {
@@ -15,11 +18,14 @@ class Bike extends vehicle {
     String brand;
     String model;
 
+
+
     public Bike(int vehicleCode, String vehicleType, String bikeName, String brand, String model) {
         super(vehicleCode, vehicleType);
         this.bikeName = bikeName;
         this.brand = brand;
         this.model = model;
+
     }
 
     void display() {
