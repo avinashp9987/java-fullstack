@@ -3,7 +3,7 @@
 
 package Exception;
 
-public class NumberFormatException {
+public class NumberFormatExceptionDemo extends Throwable {
     public static void main(String[] args) {
 
         String n ="101A";
